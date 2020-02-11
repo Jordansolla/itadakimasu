@@ -1,0 +1,184 @@
+/* HEADER*/
+
+header a{
+    color: black;
+    text-decoration: none;
+}
+header a:hover{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    background-color: #CE2539;
+    height: 3em;
+    margin-top: 0.625em;
+}
+header img{
+    width: 12em;
+    height: 4.5em;
+    padding-bottom: 0.5625em;
+}
+
+.colorfontmenu{
+    color: black;
+}
+/* HEADER END*/
+
+/*MAIN*/
+
+
+.buttonsearch{
+    margin-top: -3em;
+}
+.adrlivr{
+    width: 500px;
+}
+.couleurbtn{
+    background-color: #CE2539;
+    border: none;
+    color: white;
+    font-family: Roboto;
+}
+.couleurbtn1{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: black;
+    font-family: Roboto;
+}
+.couleurbtn2{
+    background-color: #CE2539;
+    border: none;
+    color: white;
+    font-family: Roboto;
+   margin-left: 0.5em;
+}
+.imggrid3{
+    margin-left: 4%;
+}
+.searchbar{
+    width: 35em;
+    height: 2.5em;
+    border: 0.1% black solid;
+    
+}
+.boutonmilieuimg{
+    display: inline;
+    align-items: center;
+}
+.vespa{
+    width: 8em;
+    height: 9em;
+}
+
+.carteborder{
+    border: 1px black solid;
+}
+/*MAIN END*/
+
+/*FOOTER*/
+
+.colorfooter{
+        background-color: black;
+        width: 100%;
+        color: white;
+        text-align: center;
+        height: 4em;
+        position: relative;
+}
+
+/*FOOTER END*/
+
+
+/* CARTE PAGE*/
+
+.img2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 18.75em; 
+    margin-top: -4em;
+    
+}
+.carte{
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.panier{
+    background-color: #2B2323;
+    border: black 1px solid;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.774);
+    
+}
+
+.couleurbtn3{
+    background-color: #CE2539;
+    border: none;
+    color: white;
+    font-family: Roboto;
+    width: 7em;
+    height: 2em;
+}
+
+.certif{
+    width: 10em;
+    height: 10em;
+}
+/* CARTE PAGE FIN */
+
+/* A PROPOS PAGE */
+
+.fondita{
+    background-color: #CE2539 ;
+}
+
+/*A PROPOS PAGE FIN */
+
+/* CONTACT PAGE */
+.adrnum{
+    font-size: 30px;
+}
+/* CONTACT PAGE FIN */
+
+li{
+    background-color: none;
+    color: black;
+    text-align: center;
+}
+
+.ulx li{
+    padding: 1em;
+    text-align: center;
+    margin-left: -2.5em;
+}
+
+
+/* PAGE PAIEMENT */
+
+.bgpay{
+    background-color:  #2B2323;
+    height: 50em;
+    width: 100em;
+    color: white;
+}
+
+ body a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+body a{
+    color: white;
+    text-decoration: none;
+}
+
+.ulpay li{
+    background-color: rgb(255, 255, 255);
+    color: #CE2539;
+    border: white 1px solid;
+    width: 20em;
+    margin-top: 2em;
+}
+hr{
+    background-color: white;
+}

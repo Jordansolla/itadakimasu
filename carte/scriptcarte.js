@@ -41,16 +41,23 @@ var li = document.createElement("li");
     localStorage.setItem('panier', this.parentElement.querySelector("h5").textContent+this.parentElement.querySelector("h6").textContent)
 
 }
-
+if (localStorage.getItem('panier')){
 var li = document.createElement("li"); 
     li.classList.add("list-group-item");
     li.appendChild(document.createTextNode(localStorage.getItem('panier'))); 
     ul.appendChild(li); 
 
 console.log(localStorage.getItem('panier'))
+}
 
+var clear = document.querySelector(".clear");
 
+    clear.addEventListener("click",function(){
+            ul.innerHTML = ''
+localStorage.removeItem('panier')   
+    });
 
+  
 
 
 

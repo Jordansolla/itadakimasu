@@ -1,55 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="https://kit.fontawesome.com/98dccf209a.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <title>A PROPOS</title>
 </head>
 <body>
   <header>
     <div class="container-fluid m-0 p-0">
-      <nav class="navbar navbar-expand-lg py-0">
+      <nav class="navbar navbar-expand-md py-0">
         <a href="index.html">
-          <img class="guinuts_icone_animate" src="logoitadakitamasu.png" alt="Image non disponible">
+          <img class="guinuts_icone_animate" src="/index/logoitadakitamasu.png" alt="Image non disponible">
         </a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
+          <ol class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a>
+              <a class="nav-link colorfontmenu" href="/index/index.html">Accueil<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="carte.html">Carte</a>
+              <a class="nav-link colorfontmenu" href="/carte/carte.html">Carte</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="apropos.html">A propos</a>
+              <a class="nav-link colorfontmenu" href="/apropos/apropos.html">A propos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link colorfontmenu" href="/contact/contact.html">Contact</a>
             </li>
-          </ul>
+          </ol>
         </div><!-- div collapse navbar-collapse... -->
       </nav>
     </div><!-- div container fluid-->
   </header>
-
-
-
-
-
 <main>
-  <img class="img-fluid img2" src="img2.jpg" alt="">
+  <img class="img-fluid img2" src="/img2.jpg" alt="">
 <div class="container">
 <div class="row">
     <div class="col-md-12 text-center">
             <h3>Comment manger et apprécié des ramens</h3>
-            <ol>
+            <ol class="mt-3">
                 <li>Il faut manger pendant que la soupe est chaude et que les nouilles sont fermes ou al dente.</li>
                 <li>Il faut d’abord toucher le bol avec les deux mains et sentir sa chaleur avec tout votre corps.</li>
                 <li>Goûtez ensuite la soupe à l’aide d’une grande cuillère et appréciez longuement sa saveur.</li>
@@ -60,44 +55,62 @@
 </div>
   </div>
 </div>
+<hr>
 <div class="row">
-<div class="col-12 text-center"> <img class="fondita" src="logoitadakitamasu.png" alt=""></div>
+<div class="col-12 text-center"> <img class="fondita mt-3 img-fluid" src="/index/logoitadakitamasu.png" alt=""></div>
 </div>
 <div class="container">
   <div class="row">
     <div class="col-md-12 text-center mt-5 mb-5">
       <p>Suivez-nous <br> Ne ratez rien de notre actualité !</p>
-      <button type="button" class="btn btn-fb"><i class="fab fa-facebook-f"></i></button>
-      <button type="button" class="btn btn-ins"><i class="fab fa-instagram"></i></button>
-      <button type="button" class="btn btn-tw"><i class="fab fa-twitter"></i></button>
+      <a href="http://facebook.fr"><button type="button" class="btn btn-fb"><i class="fab fa-facebook-f"></i></button></a>
+      <a href="http://instagram.com"><button type="button" class="btn btn-ins"><i class="fab fa-instagram"></i></button></a>
+      <a href="http://twitter.fr"><button type="button" class="btn btn-tw"><i class="fab fa-twitter"></i></button></a>
     </div>
   </div>
 </div>
 </main>
 <!-- Footer -->
-<footer>
-  <div class="container-fluid colorfooter">
-    <div class="row text-center">
-      <div class="col-md-6 ">
-        Adresse : 354 Rue Emile Zola 69009 - Lyon 
-      </div>
-      <div class="col-md-6">
-        06 00 00 00 00/04 00 00 00 00
-      </div>
-    </div>
+<footer class="page-footer font-small teal colorfooter mb-0" >
+
+  <!-- Footer Text -->
+  <div class="container-fluid text-center ">
+
+    <!-- Grid row -->
     <div class="row">
-      <div class="col-md-12 text-center">
-        © 2020 ITADAKIMASU ITADAKIMASU.FR
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">Adresse : 354 Rue Emile Zola 69009 - Lyon </h5>
+        
       </div>
+      <!-- Grid column -->
+
+      
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-md-0 mb-3">
+        <!-- Content -->
+        <h5 class="text-uppercase font-weight-bold">06 00 00 00 00/04 00 00 00 00</h5>
+      </div>
+      <!-- Grid column -->
     </div>
-    
+<div class="row">
+  <div class="col-md-12 text-center ">
+  <p>  © 2020 Copyright : itadakimasu.fr </p>
   </div>
+</div>
+    </div>
+    <!-- Grid row -->
 </footer>
+
 <!-- Footer -->
 
 
     <script src="script.js"></script>
-    <script src="bootstrap/jquery/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="/bootstrap/jquery/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
